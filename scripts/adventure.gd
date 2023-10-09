@@ -29,4 +29,4 @@ func _ready():
 
 func go_to_checkpoint(target):
 	Global.CUR = target
-	get_tree().change_scene_to_file("res://adventure.tscn")
+	get_tree().change_scene_to_file("res://scenes/adventure.tscn")
