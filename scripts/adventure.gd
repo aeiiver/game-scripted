@@ -1,6 +1,8 @@
 extends Node2D
 
 func _ready():
+	Global.CUR -= 1
+
 	var lab = Label.new()
 	lab.text = Global.ADV.checkpoints[Global.CUR].text
 	lab.autowrap_mode = TextServer.AUTOWRAP_WORD
