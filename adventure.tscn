@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://q56vljdr5f10"]
+
+[ext_resource type="Script" path="res://adventure.gd" id="1_1ccsu"]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_1ccsu")

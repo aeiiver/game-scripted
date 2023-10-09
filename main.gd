@@ -22,7 +22,9 @@ func _ready():
 	add_child(centered)
 
 func on_play_button_up():
-	print("Let's play!")
+	var fa = FileAccess.open("adventures/chatgpt-first.json", FileAccess.READ)
+	Global.ADV = JSON.parse_string(fa.get_as_text())
+	get_tree().change_scene_to_file("res://adventure.tscn")
 
 func on_quit_button_up():
 	get_tree().quit()

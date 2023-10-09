@@ -1,0 +1,358 @@
+{
+  "title": "The Mysterious Mansion",
+  "description": "You wake up in a strange mansion with no memory of how you got here. Explore and uncover the secrets within.",
+  "checkpoints": [
+	{
+	  "id": 1,
+	  "text": "As you slowly awaken, you find yourself in a dimly lit room, surrounded by unfamiliar walls. The air is heavy with a musty scent, and you have no recollection of how you ended up here.",
+	  "choices": [
+		{
+		  "description": "Examine the room for any clues or objects.",
+		  "outcome": 2
+		},
+		{
+		  "description": "Listen at the door to see if you can hear any sounds.",
+		  "outcome": 3
+		},
+		{
+		  "description": "Attempt to remember how you got here.",
+		  "outcome": 4
+		}
+	  ]
+	},
+	{
+	  "id": 2,
+	  "text": "You search the room meticulously but find nothing of significance. The walls are bare, and there's only a small window covered in thick curtains.",
+	  "choices": [
+		{
+		  "description": "Proceed to the next room.",
+		  "outcome": 5
+		},
+		{
+		  "description": "Inspect the window.",
+		  "outcome": 6
+		}
+	  ]
+	},
+	{
+	  "id": 3,
+	  "text": "You press your ear against the door, straining to hear any sounds. After a moment, you hear faint footsteps approaching.",
+	  "choices": [
+		{
+		  "description": "Hide in the room.",
+		  "outcome": 7
+		},
+		{
+		  "description": "Open the door cautiously.",
+		  "outcome": 8
+		}
+	  ]
+	},
+	{
+	  "id": 4,
+	  "text": "You close your eyes and try to recall the events leading up to your arrival here. But the memories remain elusive, like fragments of a dream slipping away.",
+	  "choices": []
+	},
+	{
+	  "id": 5,
+	  "text": "You cautiously step into the next room, which appears to be a dusty library filled with ancient books and scrolls.",
+	  "choices": [
+		{
+		  "description": "Investigate the books.",
+		  "outcome": 9
+		},
+		{
+		  "description": "Search for an exit.",
+		  "outcome": 10
+		}
+	  ]
+	},
+	{
+	  "id": 6,
+	  "text": "You pull back the curtains to reveal a dense forest outside. The window seems too small to climb through.",
+	  "choices": [
+		{
+		  "description": "Return to the previous room.",
+		  "outcome": 2
+		},
+		{
+		  "description": "Try to open the window.",
+		  "outcome": 11
+		}
+	  ]
+	},
+	{
+	  "id": 7,
+	  "text": "You quickly hide behind a large piece of furniture just as a figure enters the room. They seem to be searching for something, unaware of your presence.",
+	  "choices": [
+		{
+		  "description": "Stay hidden.",
+		  "outcome": 12
+		},
+		{
+		  "description": "Confront the intruder.",
+		  "outcome": 13
+		}
+	  ]
+	},
+	{
+	  "id": 8,
+	  "text": "You slowly open the door and come face to face with a mysterious individual. They look equally surprised to see you.",
+	  "choices": [
+		{
+		  "description": "Introduce yourself and ask for answers.",
+		  "outcome": 14
+		},
+		{
+		  "description": "Retreat back into the room.",
+		  "outcome": 7
+		}
+	  ]
+	},
+	{
+	  "id": 9,
+	  "text": "You start browsing through the ancient books, hoping to find clues about your current situation. One of the books catches your eye.",
+	  "choices": [
+		{
+		  "description": "Read the book.",
+		  "outcome": 15
+		},
+		{
+		  "description": "Continue searching for more information.",
+		  "outcome": 10
+		}
+	  ]
+	},
+	{
+	  "id": 10,
+	  "text": "You decide to search for an exit. The library has multiple doors, each leading to different parts of the mansion.",
+	  "choices": [
+		{
+		  "description": "Choose a door and proceed.",
+		  "outcome": 16
+		},
+		{
+		  "description": "Return to the previous room.",
+		  "outcome": 5
+		}
+	  ]
+	},
+	{
+	  "id": 11,
+	  "text": "You struggle to open the window, but it's locked shut. You'll need to find a key or another way to escape.",
+	  "choices": [
+		{
+		  "description": "Return to the previous room.",
+		  "outcome": 2
+		},
+		{
+		  "description": "Search for a key in the library.",
+		  "outcome": 9
+		}
+	  ]
+	},
+	{
+	  "id": 12,
+	  "text": "You stay hidden, watching the intruder closely. They seem to be getting frustrated in their search, unaware of your presence.",
+	  "choices": [
+		{
+		  "description": "Wait for them to leave.",
+		  "outcome": 17
+		},
+		{
+		  "description": "Attempt to sneak out of the room.",
+		  "outcome": 18
+		}
+	  ]
+	},
+	{
+	  "id": 13,
+	  "text": "You confront the intruder, demanding answers. They appear startled but then quickly compose themselves.",
+	  "choices": [
+		{
+		  "description": "Ask who they are and what's happening.",
+		  "outcome": 19
+		},
+		{
+		  "description": "Remain cautious and observe their actions.",
+		  "outcome": 20
+		}
+	  ]
+	},
+	{
+	  "id": 14,
+	  "text": "You introduce yourself and ask the mysterious individual about the mansion and your presence here. They seem hesitant but willing to share some information.",
+	  "choices": [
+		{
+		  "description": "Listen to their explanation.",
+		  "outcome": 21
+		},
+		{
+		  "description": "Express your distrust and demand more answers.",
+		  "outcome": 22
+		}
+	  ]
+	},
+	{
+	  "id": 15,
+	  "text": "You open the book and discover it contains information about the mansion's history and its enigmatic owner. It hints at hidden secrets waiting to be uncovered.",
+	  "choices": [
+		{
+		  "description": "Continue reading for more details.",
+		  "outcome": 23
+		},
+		{
+		  "description": "Put the book down and explore further.",
+		  "outcome": 10
+		}
+	  ]
+	},
+	{
+	  "id": 16,
+	  "text": "You choose a door and step into a new area of the mansion, each more mysterious than the last. Your adventure continues, and the secrets of the mansion unfold.",
+	  "choices": []
+	},
+	{
+	  "id": 17,
+	  "text": "You wait patiently for the intruder to leave. After some time, they exit the room, leaving you with a sense of relief and a chance to explore further.",
+	  "choices": [
+		{
+		  "description": "Explore the room the intruder was searching.",
+		  "outcome": 18
+		},
+		{
+		  "description": "Follow the intruder cautiously.",
+		  "outcome": 13
+		}
+	  ]
+	},
+	{
+	  "id": 18,
+	  "text": "You cautiously explore the room the intruder was searching, hoping to find clues about your situation.",
+	  "choices": [
+		{
+		  "description": "Search for hidden compartments or clues.",
+		  "outcome": 24
+		},
+		{
+		  "description": "Exit the room and continue exploring the mansion.",
+		  "outcome": 16
+		}
+	  ]
+	},
+	{
+	  "id": 19,
+	  "text": "You engage the intruder in conversation, trying to understand the situation. They reveal that you're not the only one trapped in this mansion, and together, you decide to uncover its mysteries.",
+	  "choices": [
+		{
+		  "description": "Form an alliance and explore the mansion together.",
+		  "outcome": 25
+		},
+		{
+		  "description": "Remain cautious and keep a close eye on the intruder.",
+		  "outcome": 13
+		}
+	  ]
+	},
+	{
+	  "id": 20,
+	  "text": "You continue to observe the intruder's actions, trying to determine their intentions. They seem to be searching for something specific within the mansion.",
+	  "choices": [
+		{
+		  "description": "Offer your assistance in exchange for answers.",
+		  "outcome": 26
+		},
+		{
+		  "description": "Keep a safe distance and wait for an opportunity.",
+		  "outcome": 18
+		}
+	  ]
+	},
+	{
+	  "id": 21,
+	  "text": "The mysterious individual shares that they too were brought here against their will and are searching for a way out. You decide to work together to solve the mansion's mysteries.",
+	  "choices": [
+		{
+		  "description": "Begin your joint exploration of the mansion.",
+		  "outcome": 27
+		},
+		{
+		  "description": "Discuss your plan of action in more detail.",
+		  "outcome": 28
+		}
+	  ]
+	},
+	{
+	  "id": 22,
+	  "text": "You express your distrust and demand more answers from the mysterious individual. They become defensive and cautious, but a tense truce is established.",
+	  "choices": [
+		{
+		  "description": "Agree to cooperate to escape the mansion.",
+		  "outcome": 25
+		},
+		{
+		  "description": "Keep your guard up and remain vigilant.",
+		  "outcome": 20
+		}
+	  ]
+	},
+	{
+	  "id": 23,
+	  "text": "The book unveils more secrets about the mansion's history, including tales of hidden chambers and powerful artifacts. The urge to explore further intensifies.",
+	  "choices": [
+		{
+		  "description": "Seek out the hidden chambers mentioned in the book.",
+		  "outcome": 29
+		},
+		{
+		  "description": "Share the book's revelations with your newfound ally.",
+		  "outcome": 28
+		}
+	  ]
+	},
+	{
+	  "id": 24,
+	  "text": "Your thorough search reveals a concealed compartment in the room, containing a cryptic map. It hints at hidden passages and treasures within the mansion.",
+	  "choices": [
+		{
+		  "description": "Follow the map's clues and explore the hidden passages.",
+		  "outcome": 30
+		},
+		{
+		  "description": "Inform your ally about the discovery.",
+		  "outcome": 28
+		}
+	  ]
+	},
+	{
+	  "id": 25,
+	  "text": "Despite your initial distrust, you and the mysterious individual decide to cooperate to find a way out of the mansion. Together, you embark on a perilous journey through its enigmatic corridors.",
+	  "choices": []
+	},
+	{
+	  "id": 26,
+	  "text": "You offer your assistance to the intruder in exchange for answers about the mansion. They agree, and together, you begin your exploration with cautious optimism.",
+	  "choices": []
+	},
+	{
+	  "id": 27,
+	  "text": "With your newfound ally, you delve deeper into the mansion's secrets, facing challenges and uncovering ancient mysteries that promise a way out of this peculiar place.",
+	  "choices": []
+	},
+	{
+	  "id": 28,
+	  "text": "You discuss your plan of action and decide to share information and support each other in your quest to escape the mansion.",
+	  "choices": []
+	},
+	{
+	  "id": 29,
+	  "text": "Following the map's clues, you discover hidden chambers and mysterious artifacts, each bringing you closer to the mansion's ultimate secret.",
+	  "choices": []
+	},
+	{
+	  "id": 30,
+	  "text": "Guided by the map, you explore hidden passages and uncover long-forgotten secrets within the mansion. Your adventure continues to unfold.",
+	  "choices": []
+	}
+  ]
+}
